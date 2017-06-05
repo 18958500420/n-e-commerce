@@ -1,0 +1,267 @@
+.party{
+    width: 1200px;
+    height: 325px;
+    margin: 20px auto 0;
+    //background: red;
+    background-size: 100%;
+    position: relative;
+}
+.party>:nth-child(1){
+    height: 64px;
+    border-bottom: 2px solid #dc2727;
+}
+.party>:nth-child(1)>:nth-child(1){
+    width: 193px;
+    height: 50px;
+    background: #dc2727;
+    position: absolute;
+    top: 14px;
+}
+.party>:nth-child(1)>:nth-child(1)>:nth-child(1){
+    text-indent: 15px;
+    float: left;
+}
+.party>:nth-child(1)>:nth-child(1)>:nth-child(1)>b{
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+.party>:nth-child(1)>:nth-child(1)>:nth-child(2){
+    float: left;
+    width: 93px;
+    height: 13px;
+    background: url("../img/便宜.png");
+    position: relative;
+    top: 20px;
+    left: 3px;
+}
+.party>:nth-child(1)>:nth-child(2){
+    width: 115px;
+    height: 25px;
+    float: right;
+    background: #dc2727;
+    border-radius: 25px;
+    position: absolute;
+    right: 2px;
+    top: 31px;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+}
+.party>:nth-child(2){
+    padding: 10px 10px 10px 0;
+}
+.party>:nth-child(2)>div{
+    width: 1190px;
+    height: 240px;
+}
+/*==========================  商品1  ===========================*/
+.party>:nth-child(2)>div>:nth-child(1){
+    width: 200px;
+    height: 240px;
+    float: left;
+}
+/*==========================  商品2  ===========================*/
+.party>:nth-child(2)>div>:nth-child(2){
+    width: 200px;
+    height: 240px;
+    float: left;
+}
+/*==========================  商品3  ===========================*/
+.party>:nth-child(2)>div>:nth-child(3){
+    width: 200px;
+    height: 240px;
+    float: left;
+}
+/*==========================  商品4  ===========================*/
+.party>:nth-child(2)>div>:nth-child(4){
+    width: 200px;
+    height: 240px;
+    float: left;
+}
+/*==========================  商品5  ===========================*/
+.party>:nth-child(2)>div>:nth-child(5){
+    width: 200px;
+    height: 240px;
+    float: left;
+}
+/*==========================  商品6  ===========================*/
+.party>:nth-child(2)>div>:nth-child(6){
+    width: 190px;
+    height: 240px;
+    float: left;
+}
+.sp2>img{
+    float: left;
+    width: 160px;
+    padding: 10px 0 0 0;
+    position: relative;
+    left: 24px;
+}
+/*=======================  商品通用代码 ========================*/
+.party>:nth-child(2)>div>div>div{
+    padding: 10px 0 0 0;
+}
+.sp>img{
+    float: left;
+    width: 160px;
+    position: relative;
+    left: 24px;
+}
+.sp{
+    width: 198px;
+    height: 145px;
+    border-right: 2px solid #ccc;
+}
+.jj{
+    float: left;
+    width: 150px;
+    height: 23px;
+    font-size: 12px;
+    color: black;
+    padding: 12px 23px 10px 23px;
+    overflow: hidden;
+}
+.jg>:nth-child(1)>b{
+    width: 150px;
+    font-size: 20px;
+    padding: 0 0 0 22px;
+    color: orangered;
+}
+.jg>:nth-child(2){
+    position: relative;
+    top: -4px;
+    font-size: 12px;
+    color: #ccc;
+}
+.party_left:hover>:nth-child(1)>div>img{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+.party_left:hover>:nth-child(2)>div{
+    color: orangered;
+}
+.party_left2:hover>:nth-child(1)>div>img{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+.party_left2:hover>:nth-child(2)>div{
+    color: orangered;
+}
+/*==================   电商产品分块2  ====================*/
+.party2{
+    width: 1200px;
+    height: 385px;
+    background: url("../img/k2.png") no-repeat;
+    background-size: 100%;
+    margin: 20px auto 0;
+    position: relative;
+}
+.party2>div{
+    float: left;
+}
+.con1{
+    width: 595px;
+    height: 45px;
+    background: #449cad;
+}
+.con1>:nth-child(1)>div{
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 45px;
+    color: white;
+    text-indent: 20px;
+    float: left;
+}
+.con1>:nth-child(2)>div{
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 45px;
+    color: white;
+    text-indent: 20px;
+    float: right;
+    margin: 0 20px 0 0;
+}
+.con2{
+    width: 595px;
+    height: 340px;
+    float: left;
+    //filter: opacity(30%);/*=== 透明度 ===*/
+    position: relative;
+}
+.con2-left{
+    width: 190px;
+    height: 340px;
+    float: left;
+    background: white;
+}
+.con2_left{
+    width: 160px;
+    height: 225px;
+    border-bottom: 2px solid #ccc;
+}
+.con2_left>img{
+    width: 160px;
+    position: absolute;
+    top: 45px;
+}
+.con2_left2{
+    width: 155px;
+    height: 80px;
+    padding: 10px 0 5px;
+}
+.con2_left2>:nth-child(1){
+    font-size: 12px;
+    height: 20px;
+    color: black;
+}
+.con2_left2>:nth-child(2){
+    font-size: 12px;
+    color: #ccc;
+    height: 43px;
+}
+.con2_left2>:nth-child(3){
+    font-size: 12px;
+    color: #ccc;
+}
+.con2_left2>:nth-child(3)>span{
+    font-size: 12px;
+    color: darkcyan;
+}
+.con2-right{
+    width: 405px;
+    height: 340px;
+    float: right;
+    background: yellow;
+    filter: opacity(30%);
+}
+.con2_right{
+    width: 385px;
+    height: 320px;
+    background: red;
+    margin: 10px auto;
+    position: relative;
+}
+.con2_right-1{
+    width: 50%;
+    height: 33.33%;
+    background: green;
+    float: left;
+}
+.con2_right-1>:nth-child(1){
+    width: 90px;
+    height: 100%;
+    float: left;
+}
+.con2_right-1>:nth-child(1)>img{
+    width: 80px;
+    position: absolute;
+    top: 10px;
+}
+.con2_right-2{
+    width: 50%;
+    height: 33.33%;
+    background: black;
+    float: right;
+}
